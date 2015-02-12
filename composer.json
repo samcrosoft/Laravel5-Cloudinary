@@ -1,0 +1,33 @@
+{
+  "name": "samcrosoft/cloudinary",
+  "description": "description here",
+  "version": "1.0.0",
+  "description": "Laravel Based Cloudinary PHP SDK",
+  "keywords": [
+    "laravel",
+    "cloudinary",
+    "image manipulation",
+    "cloud",
+    "image management"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/samcrooft/cloudinary",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0",
+    "cloudinary/cloudinary_php": "~1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samuel Olowofela",
+      "email": "samuel_olowofela@yahoo.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Samcrosoft\\Cloudinary": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
