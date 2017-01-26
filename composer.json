@@ -4,16 +4,17 @@
   "description": "Laravel Based Cloudinary PHP SDK",
   "keywords": [
     "laravel",
+    "laravel5",
     "cloudinary",
     "image manipulation",
     "cloud",
     "image management"
   ],
   "type": "library",
-  "homepage": "https://github.com/samcrooft/cloudinary",
+  "homepage": "https://github.com/samcrosoft/Laravel5-Cloudinary",
   "require": {
     "php": ">=5.4.0",
-    "illuminate/support": "~5.0",
+    "illuminate/support": "^5.2",
     "cloudinary/cloudinary_php": "^1.4.0"
   },
   "license": "MIT",
@@ -24,8 +25,8 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "Samcrosoft\\Cloudinary": "src/"
+    "psr-4": {
+      "Samcrosoft\\Cloudinary\\": "src/app/"
     }
   },
   "minimum-stability": "stable"
