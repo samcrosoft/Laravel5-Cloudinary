@@ -44,7 +44,7 @@ class CloudinaryServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../../../config/cloudinary.php' => config_path('cloudinary.php')
+            __DIR__ . '/../../config/cloudinary.php' => config_path('cloudinary.php')
         ]);
     }
 
