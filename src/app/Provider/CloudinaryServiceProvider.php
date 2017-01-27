@@ -32,7 +32,7 @@ class CloudinaryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared(self::PROVIDER_ALIAS, function () {
+        $this->app->bind(self::PROVIDER_ALIAS, function () {
             return $this->app->make('Samcrosoft\Cloudinary\Wrapper\CloudinaryWrapper');
         });
     }
