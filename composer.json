@@ -1,6 +1,6 @@
 {
   "name": "samcrosoft/cloudinary",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Laravel Based Cloudinary PHP SDK",
   "keywords": [
     "laravel",
